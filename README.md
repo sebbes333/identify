@@ -34,7 +34,7 @@ bar = {
 let baz = new Date();
 let qux = identify(baz);
 /*
-bar = {
+qux = {
     type: "object ",
     subType: "date"
 }
