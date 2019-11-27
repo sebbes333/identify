@@ -1,6 +1,6 @@
 # identify
 
-## Upgraded version of: typeof in JavaScript, to better identify & separate similar results.
+## Upgraded version of: `typeof` in JavaScript, to better identify & separate similar results.
 
 eg: `identify([]).subType` returns: `"array"` instead of `"object"` that `typeof` would return. 
 `identify()` returns an object containing 2 properties: `.type` & `.subType`.
