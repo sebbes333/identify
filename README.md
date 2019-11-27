@@ -2,6 +2,7 @@
 
 ### An upgraded version of: `typeof` in JavaScript, to better identify & separate similar results.
 
+You can send in ANY THING to the `identify()` function and it returns an object with 2 properties: `.type` & `.subType` that lets you identify whatever it was you sent in.
 eg: `identify([]).subType` returns: `"array"` instead of `"object"` that `typeof` would return. 
 `identify()` returns an object containing 2 properties: `.type` & `.subType`.
 
@@ -27,6 +28,15 @@ console.log( foo.subType ) // "float"
 bar = {
     type: "number",
     subType: "float"
+}
+*/
+
+let baz = new Date();
+let qux = identify(baz);
+/*
+bar = {
+    type: "object ",
+    subType: "date"
 }
 */
 ```
