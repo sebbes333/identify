@@ -1,0 +1,26 @@
+{
+  "name": "identify",
+  "version": "1.0.0",
+  "description": "Upgraded version of: typeof in JavaScript, to better identify & separate similar results.",
+  "main": "./js/identify.js",
+  "scripts": {
+    "test": "./html/test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebbes333/identify.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "typeof",
+    "utillity",
+    "upgrade",
+    "better"
+  ],
+  "author": "Sebastian Norr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebbes333/identify/issues"
+  },
+  "homepage": "https://github.com/sebbes333/identify#readme"
+}
