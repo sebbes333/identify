@@ -5,7 +5,7 @@
 eg: `identify([]).subType` returns: `"array"` instead of `"object"` that `typeof` would return. 
 `identify()` returns an object containing 2 properties: `.type` & `.subType`.
 
-`.type` is the same as `typeof` in case you need a more general matching, but `.subType` tries to be as specific as posible, you usually want to use `.subType` (I am thinking of removing `.type` & only return `.subType` directly as a string, but I will wait to see what your feedback says about it).
+`.type` is the same as `typeof` in case you need a more general matching, but `.subType` tries to be as specific as posible, you usually want to use `.subType`.
 
 All output strings will always be turned to lowercase, for consistency & ease of writing.
 
@@ -29,3 +29,7 @@ console.log( foo.subType ) // "float"
 There is no (known?) way to diferentiate a "integer like" float number, eg: `3.00` or `123.0000` from a "true integer" eg: `3` or `123`, not even on a binarry level.<br/>
 Therefore `identify(3.00).subType` will return `"int"` instead of `"float"`.<br/>
 All other things should return their correct values.
+
+##### Feedback requests:
+1. I am thinking of removing `.type` & only return `.subType` directly as a string, but I will wait to see what your feedback says about it.
+2. If you find anything that doesn't return what you think it should, it would be very usefull if you could report it.
