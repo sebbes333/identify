@@ -26,6 +26,6 @@ console.log( foo.subType ) // "float"
 ```
 
 ##### NOTE!
-There is no (known?) way to diferentiate a "integer like" float number, eg: `3.00` or `123.0000`, not even on a binarry level.<br/>
+There is no (known?) way to diferentiate a "integer like" float number, eg: `3.00` or `123.0000` from a "true integer" eg: `3` or `123`, not even on a binarry level.<br/>
 Therefore `identify(3.00).subType` will return `"int"` instead of `"float"`.<br/>
 All other things should return their correct values.
