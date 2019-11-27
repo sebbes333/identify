@@ -32,7 +32,7 @@ let tests = [
         debug: true
     },
     {
-        label: "Scientific number",
+        label: "Scientific number: 5e3",
         thing: 5e3, 
         Type: "number",
         SubType: "int",
@@ -53,6 +53,13 @@ let tests = [
         debug: true
     },
     // Floats
+    {
+        label: "Float negative",
+        thing: -5.5, 
+        Type: "number",
+        SubType: "float",
+        debug: true
+    },
     {
         label: "Negative scientific number",
         thing: 5e-3, 
@@ -165,7 +172,7 @@ let tests = [
     },
     {
         label: "Intentionally wrong booth, should generate a red Error-level result",
-        thing: "Intentionally wrong double", 
+        thing: "Intentionally wrong both of them", 
         Type: "wrong",
         SubType: "wrong",
         debug: true
@@ -175,22 +182,22 @@ let tests = [
 tests.forEach(test => { // run all tests from the test-object above.
     verify(test.thing, test.Type, test.SubType, test.label, test.debug);
     let a = verify(test.thing);
-    console.log(a); // ERROR? Why only ONE False? why not many?
+    //console.log(a); // ERROR? Why only ONE False? why not many?
     
 });
 
 // Special edge cases that can't be held in an Object
 let undefined_variable;
 a = verify( undefined_variable,  "undefined", "undefined", "Undefined variable", true)
-console.log(a);
+//console.log(a);
 
 let fn = function(params) {}
 a = verify(fn, "function", "function", "function", true)
-console.log(a);
+//console.log(a);
 
 let sym = Symbol("sym");
 a = verify(sym, "symbol", "symbol", "Symbol", true)
-console.log(a);
+//console.log(a);
 
 class myTestClass {
     constructor() {
