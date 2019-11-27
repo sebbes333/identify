@@ -12,12 +12,6 @@ All output strings will always be turned to lowercase, for consistency & ease of
 ### Usage examples:
 ```javascript
 let foo = identify(null);
-/*
-foo = {
-    type: "object",
-    subType: "null"
-}
-*/
 console.log(foo.type) // "object"
 console.log(foo.subType) // "null"
 
@@ -29,6 +23,12 @@ let bar = identify(3.14)
 console.log( typeof foo )  // "object"
 console.log( foo.type )    // "number"
 console.log( foo.subType ) // "float"
+/*
+bar = {
+    type: "number",
+    subType: "float"
+}
+*/
 ```
 
 ##### NOTE!
