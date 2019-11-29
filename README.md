@@ -22,6 +22,7 @@ Comming soon to an NPM near you ;)
 ```
 
 ### Usage examples:
+----
 ```javascript
 let foo = identify(null);
 console.log(foo.type) // "object"
