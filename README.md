@@ -14,6 +14,13 @@ All output strings will always be turned to lowercase, for consistency & ease of
 This is great when working with larger projects &/or global variables, where the variable you get into a function might not be what you expec it to be, because some other function have changed the value, or someone sends the wrong data to your function.<br/>
 Eg: You get in: `add("1", 2)` & return `"12"` instead of `3`.
 
+Installation
+------------
+
+``` sh
+Comming soon to an NPM near you ;)
+```
+
 ### Usage examples:
 ```javascript
 let foo = identify(null);
