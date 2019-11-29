@@ -30,8 +30,8 @@ if( foo.subType === "null" ) {
 }
 
 let bar = identify( 3.14 );
-console.log( typeof foo  );  // "object"
-console.log( foo.type    );    // "number"
+console.log( typeof foo  ); // "object"
+console.log( foo.type    ); // "number"
 console.log( foo.subType ); // "float"
 /*
 bar = {
