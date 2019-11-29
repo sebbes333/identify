@@ -22,17 +22,17 @@ Comming soon to an NPM near you.
 ### Usage examples:
 ```javascript
 let foo = identify(null);
-console.log(foo.type) // "object"
-console.log(foo.subType) // "null"
+console.log(foo.type); // "object"
+console.log(foo.subType); // "null"
 
 if( foo.subType === "null" ) {
     foo = 5;
 }
 
-let bar = identify(3.14)
-console.log( typeof foo )  // "object"
-console.log( foo.type )    // "number"
-console.log( foo.subType ) // "float"
+let bar = identify(3.14);
+console.log( typeof foo );  // "object"
+console.log( foo.type );    // "number"
+console.log( foo.subType ); // "float"
 /*
 bar = {
     type: "number",
