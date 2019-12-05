@@ -16,8 +16,13 @@ Eg: You get in: `add("1", 2)` & return `"12"` instead of `3`.
 
 ### Installation
 ``` sh
-Comming soon to an NPM near you.
+npm install sn-identify
 ```
+or:
+``` sh
+npm install @sebbes/identify
+```
+(same files, use whichever you like best)
 
 ### Usage examples:
 ```javascript
