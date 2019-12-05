@@ -16,7 +16,7 @@ Eg: You get in: `add("1", 2)` & return `"12"` instead of `3`.
 
 ### Installation
 ``` sh
-npm install sn-identify
+npm i sn-identify
 ```
 or:
 ``` sh
