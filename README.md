@@ -1,4 +1,4 @@
-# JavaScript `identify()`
+# `identify()`
 
 ### An upgraded version of: `typeof` in JavaScript, to better identify & separate similar results.
 
