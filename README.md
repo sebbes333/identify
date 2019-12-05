@@ -3,8 +3,7 @@
 ### An upgraded version of: `typeof` in JavaScript, to better identify & separate similar results.
 
 You can send in ANY THING to the `identify()` function and it returns an object with 2 properties: `.type` & `.subType` that lets you identify whatever it was you sent in.
-eg: `identify([]).subType` returns: `"array"` instead of `"object"` that `typeof` would return. 
-`identify()` returns an object containing 2 properties: `.type` & `.subType`.
+eg: `identify([]).subType` returns: `"array"` instead of `"object"` that `typeof` would return.
 
 `.type` is the same as `typeof` in case you need a more general matching, but `.subType` tries to be as specific as posible, you usually want to use `.subType`.
 
