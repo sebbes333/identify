@@ -1,5 +1,5 @@
 {
-  "name": "identify",
+  "name": "sn-identify",
   "version": "1.0.0",
   "description": "Upgraded version of: typeof in JavaScript, to better identify & separate similar results.",
   "main": "./js/identify.js",
@@ -18,7 +18,7 @@
     "better"
   ],
   "author": "Sebastian Norr",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/sebbes333/identify/issues"
   },
